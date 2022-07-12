@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+from tkinter import W
 from setuptools import setup
 
 directory = os.path.abspath(os.path.dirname(__file__))
@@ -19,7 +20,7 @@ setup(name='stancomb',
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License"
       ],
-    #   install_requires=['numpy', 'requests', 'pillow'],
+      install_requires=['parsec'],
       python_requires='>=3.8',
     #   extras_require={
     #     'gpu': ["pyopencl", "six"],

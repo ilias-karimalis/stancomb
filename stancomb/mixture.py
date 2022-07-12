@@ -1,5 +1,4 @@
 # We reserve the keyword theta and require that there is no need for parameter renaming.
-# NOTE: no support for transformed data, parameters
 def mixture_model(
         data,
 		transformed_data,
